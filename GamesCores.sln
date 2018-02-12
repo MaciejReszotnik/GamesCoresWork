@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26228.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GamesCores", "GamesCores\GamesCores.csproj", "{F03B40CD-88A3-4EA2-81CE-524E2AF6610F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GamesCores.Specs", "GamesCores.Specs\GamesCores.Specs.csproj", "{51ED7795-368F-445C-9826-D0D0A36E087E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F03B40CD-88A3-4EA2-81CE-524E2AF6610F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F03B40CD-88A3-4EA2-81CE-524E2AF6610F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F03B40CD-88A3-4EA2-81CE-524E2AF6610F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F03B40CD-88A3-4EA2-81CE-524E2AF6610F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{51ED7795-368F-445C-9826-D0D0A36E087E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51ED7795-368F-445C-9826-D0D0A36E087E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51ED7795-368F-445C-9826-D0D0A36E087E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51ED7795-368F-445C-9826-D0D0A36E087E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
