@@ -37,11 +37,39 @@ Scenario: Elf race characters get additional 20 damage resistance
 	When he receives 40 damage
 	Then he should have 90 health
 
-	Scenario: Healers restore all health
+Scenario: Healers restore all health
 	Given I have a character
 	Given the character class is Healer
 	When he receives 40 damage
 		And he casts healing spell
 	Then he should have 100 health
 
+Scenario: Total magic power:
+	Given I have a character
+	Given I have the following magic items
+		| name   | value | power |
+		| Ring   | 200   | 100   |
+		| Amulet | 400   | 200   |
+		| Gloves | 100   | 400   |
+	Then the total magic power should be 700
 
+Scenario: Reading restore heath store when overtired has no effect
+	Given I have a character
+	Given character last slept 3 days ago
+	When he receives 40 damage
+	And the character reads a restore health scroll
+	Then he should have 60 health
+
+Scenario: Weapons are worth money
+	Given I have the following weapons
+	| name  | value |
+	| Sword | 50    |
+	| Pick  | 40    |
+	| Knife | 10    |
+	Then my weapons should be worth 100
+
+Scenario: Elf race characters don't lose  magical item power
+	Given I am an Elf
+		And I have an Amulet with power of 200
+	When I use magical Amulet
+	Then the Amulet power should not be reduced

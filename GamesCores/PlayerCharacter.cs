@@ -86,6 +86,10 @@ namespace GamesCores
             itemToReduce.Power -= powerReduction;
         }
 
+        public int WeaponsValue {
+            get { return Weapons.Sum(x => x.Value); }
+        }
+
 
     }
 }

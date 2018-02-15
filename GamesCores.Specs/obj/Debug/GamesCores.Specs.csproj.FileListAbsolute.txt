@@ -20,3 +20,6 @@ C:\Users\maciej.reszotnik\documents\visual studio 2017\Projects\GamesCores\Games
 C:\Users\maciej.reszotnik\documents\visual studio 2017\Projects\GamesCores\GamesCores.Specs\bin\Debug\xunit.runner.visualstudio.testadapter.dll
 C:\Users\maciej.reszotnik\documents\visual studio 2017\Projects\GamesCores\GamesCores.Specs\bin\Debug\xunit.runner.reporters.net452.dll
 C:\Users\maciej.reszotnik\documents\visual studio 2017\Projects\GamesCores\GamesCores.Specs\bin\Debug\xunit.runner.utility.net452.dll
+C:\Users\maciej.reszotnik\documents\visual studio 2017\Projects\GamesCores\GamesCores.Specs\bin\Debug\ImpromptuInterface.dll
+C:\Users\maciej.reszotnik\documents\visual studio 2017\Projects\GamesCores\GamesCores.Specs\bin\Debug\SpecFlow.Assist.Dynamic.dll
+C:\Users\maciej.reszotnik\documents\visual studio 2017\Projects\GamesCores\GamesCores.Specs\bin\Debug\ImpromptuInterface.xml

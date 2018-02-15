@@ -16,4 +16,7 @@ C:\Users\maciej.reszotnik\documents\visual studio 2017\Projects\GamesCores\Games
 C:\Users\maciej.reszotnik\documents\visual studio 2017\Projects\GamesCores\GamesCores\bin\Debug\xunit.runner.visualstudio.testadapter.dll
 C:\Users\maciej.reszotnik\documents\visual studio 2017\Projects\GamesCores\GamesCores\bin\Debug\xunit.runner.reporters.net452.dll
 C:\Users\maciej.reszotnik\documents\visual studio 2017\Projects\GamesCores\GamesCores\bin\Debug\xunit.runner.utility.net452.dll
-C:\Users\maciej.reszotnik\documents\visual studio 2017\Projects\GamesCores\GamesCores\obj\Debug\GamesCores.csprojResolveAssemblyReference.cache
+C:\Users\maciej.reszotnik\documents\visual studio 2017\Projects\GamesCores\GamesCores\bin\Debug\ImpromptuInterface.dll
+C:\Users\maciej.reszotnik\documents\visual studio 2017\Projects\GamesCores\GamesCores\bin\Debug\SpecFlow.Assist.Dynamic.dll
+C:\Users\maciej.reszotnik\documents\visual studio 2017\Projects\GamesCores\GamesCores\bin\Debug\ImpromptuInterface.xml
+C:\Users\maciej.reszotnik\Documents\Visual Studio 2017\Projects\GamesCores\GamesCores\obj\Debug\GamesCores.csprojResolveAssemblyReference.cache
