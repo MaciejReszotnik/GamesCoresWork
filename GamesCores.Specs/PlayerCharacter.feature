@@ -3,6 +3,9 @@
 	As a player
 	I want my character attributes to react consistently to changes. 
 
+	Background: 
+			Given I have a character
+
 Scenario Outline: Taking damage reduces health
 	Given I have a character
 	When I take <damage> damage
@@ -21,14 +24,15 @@ Scenario: Taking too much damage kills the character
 	Then he should have 0 health
 	And he should be dead
 
+@elf
 Scenario: Elf race characters get additional 20 damage resistance
 	Given I have a character
 		And the character has damage resistance of 10 
 		And the character is an Elf
-	When he receives 40 damage
+	When I take 40 damage
 	Then he should have 90 health
-
-	Scenario: Elf race characters get additional 20 damage resistance using data table
+@elf
+Scenario: Elf race characters get additional 20 damage resistance using data table
 	Given I have a character
 		And the character has the following attributes
 		| attribute  | value |
@@ -68,6 +72,7 @@ Scenario: Weapons are worth money
 	| Knife | 10    |
 	Then my weapons should be worth 100
 
+@elf
 Scenario: Elf race characters don't lose  magical item power
 	Given I am an Elf
 		And I have an Amulet with power of 200

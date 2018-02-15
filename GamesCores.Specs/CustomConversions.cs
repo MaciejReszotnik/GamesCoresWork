@@ -18,10 +18,7 @@ namespace GamesCores.Specs
         }
 
         [StepArgumentTransformation]
-        public IEnumerable<Weapon> WeaponsTransformation(Table table)
-        {
-            
-            return table.CreateSet<Weapon>();
-        }
+        public IEnumerable<Weapon> WeaponsTransformation(Table table) => table.CreateSet<Weapon>();
+        
     }
 }
